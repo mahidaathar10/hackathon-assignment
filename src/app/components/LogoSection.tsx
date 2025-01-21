@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 const LogoSection = () => {
@@ -12,7 +13,9 @@ const LogoSection = () => {
   ];
 
   return (
+    
     <section className="bg-white flex justify-center items-center py-8">
+      
       <div
         className="w-[1321px] h-[139px] mx-auto flex items-center justify-between space-x-4"
       >
@@ -27,7 +30,9 @@ const LogoSection = () => {
             />
           </div>
         ))}
+        
       </div>
+      
     </section>
   );
 };
