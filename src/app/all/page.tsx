@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AllProducts() {
   const products = [
     { id: 1, name: "Luxury Stool Chair", price: 20, image: "/chair2.png", isNew: true },
-    { id: 2, name: "Luxury Stool Chair", price: 20, image: "/Image.png", isSale: true },
+    { id: 2, name: "Luxury Stool Chair", price: 20, image: "/image.png", isSale: true },
     { id: 3, name: "Luxury Stool Chair", price: 20, image: "/chair3.png" },
     { id: 4, name: "Luxury Stool Chair", price: 20, image: "/chair4.png" },
     { id: 5, name: "Luxury Stool Chair", price: 30, image: "/chair6.png", isNew: true },
@@ -11,7 +11,7 @@ export default function AllProducts() {
     { id: 7, name: "Luxury Stool Chair", price: 30, image: "/chair12.png" },
     { id: 8, name: "Luxury Stool Chair", price: 20, image: "/chair2.png" },
     { id: 9, name: "Luxury Stool Chair", price: 20, image: "/chair5.png", isNew: true },
-    { id: 10, name: "Luxury Stool Chair", price: 20, image: "/Image.png", isSale: true },
+    { id: 10, name: "Luxury Stool Chair", price: 20, image: "/image.png", isSale: true },
     { id: 11, name: "Luxury Stool Chair", price: 20, image: "/chair3.png" },
     { id: 12, name: "Luxury Stool Chair", price: 20, image: "/chair7.png" },
   ];
