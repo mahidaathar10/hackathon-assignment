@@ -28,7 +28,7 @@ interface Product {
 export default function OurProduct() {
   const products: Product[] = [
     { id: 1, title: "Library Stool Chair", price: 20, image: "/chair2.png", isNew: true },
-    { id: 2, title: "Library Stool Chair", price: 20, originalPrice: 30, image: "/Image.png", isSale: true },
+    { id: 2, title: "Library Stool Chair", price: 20, originalPrice: 30, image: "/image.png", isSale: true },
     { id: 3, title: "Library Stool Chair", price: 20, image: "/chair8.png" },
     { id: 4, title: "Library Stool Chair", price: 20, image: "/chair9.png" },
     { id: 5, title: "Library Stool Chair", price: 20, image: "/chair5.png", isNew: true },

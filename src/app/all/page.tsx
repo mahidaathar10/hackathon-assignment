@@ -105,7 +105,7 @@ function NewsletterAndInstagram() {
           Follow Products And Discounts On Instagram
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {["/chair6.png", "/chair5.png", "/Image.png", "/chair2.png", "/chair8.png", "/star.png"].map(
+          {["/chair6.png", "/chair5.png", "/image.png", "/chair2.png", "/chair8.png", "/star.png"].map(
             (src, idx) => (
               <div key={idx} className="aspect-square overflow-hidden rounded-lg bg-gray-100">
                 <Image
