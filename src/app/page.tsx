@@ -6,8 +6,7 @@ import FeaturedProducts from "./components/Product";
 import CategorySection from "./components/CategorySection";
 import StyleSection from "./components/StyleSection";
 import ProductSection from "./components/ProductSection";
-
-import LogoSection from "./components/LogoSection";
+import LogoSection from "./components/LogoSection"
 
 export default function Home() {
   return (
@@ -16,11 +15,11 @@ export default function Home() {
       <Header/>
       <Navbar/>
       <Hero />
-      <LogoSection />
       <FeaturedProducts />
       <CategorySection />
       <StyleSection />
       <ProductSection />
+      <LogoSection />
     </div>
   );
 }
